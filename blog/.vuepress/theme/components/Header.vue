@@ -7,18 +7,16 @@
         </div>
         <div class="header-right-wrap">
           <ul v-if="$themeConfig.nav" class="nav">
-            <!--li
+            <li
               v-for="item in $themeConfig.nav"
               :key="item.text"
               class="nav-item"
             >
               <NavLink :link="item.link">{{ item.text }}</NavLink>
-            </li-->
-            <li>リンク1 </li>
-            <li>リンク2 </li>
+            </li>
           </ul>
           <SearchBox />
-          <!--Feed /-->
+          <Feed />
         </div>
       </div>
     </header>
@@ -27,10 +25,9 @@
 
 <script>
 import SearchBox from '@SearchBox'
-//import Feed from '@theme/components/Feed'
+import Feed from '@parent-theme/components/Feed'
 export default {
-  //components: { SearchBox, Feed },
-  components: { SearchBox },
+  components: { SearchBox, Feed },
 }
 </script>
 
