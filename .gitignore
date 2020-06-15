@@ -8,5 +8,6 @@ dist
 .DS_Store
 .nyc_output
 .basement
+.idea/
 config.local.js
 basement_dist
