@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'VuePress Blog Example',
+  title: 'タイトル',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
@@ -14,11 +14,7 @@ module.exports = {
      */
     nav: [
       {
-        text: 'Blog',
-        link: '/',
-      },
-      {
-        text: 'Tags',
+        text: 'タグ',
         link: '/tag/',
       },
     ],
@@ -29,22 +25,14 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/estsn122',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://twitter.com/estsn122',
         },
       ],
       copyright: [
-        {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
-        },
       ],
     },
   },
