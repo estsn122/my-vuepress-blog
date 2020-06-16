@@ -62,7 +62,7 @@ export default {
     margin 0
     letter-spacing 2px
     display block
-    text-transform uppercase
+    /* text-transform uppercase */
     a
       color $darkTextColor
       font-weight bold

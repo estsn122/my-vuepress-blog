@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'タイトル',
+  title: 'yuya@estsn122のWeb技術ブログ',
   description: 'This is a blog example built by VuePress',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
