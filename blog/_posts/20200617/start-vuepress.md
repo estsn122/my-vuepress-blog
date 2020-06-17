@@ -17,7 +17,7 @@ VuePressを始めること自体は凄く簡単で、[VuePress公式ドキュメ
 
 この手順を踏んで立ち上げ直後の画面です↓
 
-![](../.vuepress/public/vuepress-default-theme.png)
+![](./vuepress-default-theme.png)
 
 
 と、上記画像を見ればわかるように、記事をすぐ公開できる状態ではありません。
@@ -35,13 +35,13 @@ VuePressを始めること自体は凄く簡単で、[VuePress公式ドキュメ
 
 公式ドキュメントで推奨するディレクトリ構成が次のようになっているので、`blog`と回答しました。
 
-![](../.vuepress/public/recommended-project-structure.png)
+![](./recommended-project-structure.png)
 
 <br>
 
 Step2の`yarn dev`を実行すれば、テストデータが入ってることもあり、ブログが完成します。
 
-![](../.vuepress/public/vuepress-blog-theme.png)
+![](./vuepress-blog-theme.png)
 
 
 カスタマイズ方法(タイトルの変え方、フッターの変え方など)は下記サイトに書いてあるので、参考にしてみてください。<br>
