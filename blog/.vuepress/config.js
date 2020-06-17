@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'タイトル',
-  description: 'This is a blog example built by VuePress',
+  title: 'yuya@estsn122のWeb技術ブログ',
+  description: 'yuya@estsn122のブログです',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     dateFormat: 'YYYY-MM-DD',
